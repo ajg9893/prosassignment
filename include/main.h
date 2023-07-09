@@ -71,9 +71,8 @@ void opcontrol(void);
 #endif
 
 #ifdef __cplusplus
-/**
- * You can add C++-only headers here
- */
+#include "subsystemHeaders/drive.hpp"
+#include "subsystemHeaders/globals.hpp"
 //#include <iostream>
 #endif
 
